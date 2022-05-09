@@ -11,10 +11,6 @@
     "format:fix": "prettier --write --ignore-path .gitignore .",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "eslint --fix",
-    "*": "prettier --write"
-  },
   "dependencies": {
     "husky": "^8.0.0",
     "lint-staged": "^12.4.1",
